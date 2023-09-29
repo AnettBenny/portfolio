@@ -144,17 +144,17 @@ boolean $open: false
 
 -- ftd.column:
 width: fill-container
-background.solid: #000000aa
+background.solid: #0000ff
 sticky: true
 
 -- ftd.row:
 width: fill-container
 height: hug-content
 padding-horizontal.px: 50
-margin-vertical.px: 20
-margin-horizontal.px: 20
+margin-vertical.px: 25
+margin-horizontal.px: 25
 align-self: center
-border-radius.px: 20
+border-radius.px: 25
 spacing: space-between
 
 -- ftd.row:
@@ -163,7 +163,7 @@ spacing: space-between
 src: $header-mobile.logo
 width.fixed.px: 32
 height: auto
-border-radius.px: 20
+border-radius.px: 25
 margin-vertical.px: 10
 
 -- ftd.text: $header-mobile.logo-text
@@ -196,7 +196,7 @@ if: { header-mobile.open }
 width: fill-container
 height: hug-content
 padding.px: 20
-background.solid: #000000
+background.solid: #0000ff
 sticky: true
 
 -- ftd.text: $header-mobile.cta-text-1
@@ -256,7 +256,7 @@ optional string cta-text-6-url:
 
 -- ftd.row:
 width: fill-container
-background.solid: #000000aa
+background.solid: #0000ff
 sticky: true
 
 -- ftd.row:
